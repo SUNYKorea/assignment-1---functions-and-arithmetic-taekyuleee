@@ -11,7 +11,10 @@ def fahrenheit2celsius(fahrenheit):
    x = 1
 
 def what_to_wear(celsius):
-   ...
+   
+   if celsius<=0:
+       print("wear a sweater")
+
 
 # ---------------------------- Exercise II --------------------------------------
 # ----------------- Area and perimeter of a triangle  ---------------------------
@@ -48,9 +51,13 @@ def polygon_area(number_sides, length_side):
 # your grade. You may freely modify the following codes.
 
 # Exercise 1 test
-fahrenheit = 40
-what_to_wear(fahrenheit2celsius(fahrenheit))
+#fahrenheit = 40
+#what_to_wear(fahrenheit2celsius(fahrenheit))
 
+temperature = -10
+what_to_wear(temperature)
+
+'''
 # Exercise 2 test
 x1, x2, x3, y1, y2, y3 = -4, -5, 3, -4, 5, -3 # declaration of the vertices of the triangle
 area = shoelace_triangle_area(x1, y1, x2, y2, x3, y3)
@@ -61,4 +68,5 @@ print("The area of the triangle is : " + str(area) + " , its perimeter is : " + 
 number_sides = 5
 length_side = 4
 print ("The area of the polygon is : " + str(polygon_area(number_sides, length_side)))
+'''
 
