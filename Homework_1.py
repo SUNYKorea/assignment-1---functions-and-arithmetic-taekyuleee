@@ -1,5 +1,5 @@
-# Name:
-# SBUID: 
+# Name: Taekyu Lee
+# SBUID: 114946466
 
 # Remove the ellipses (...) when writing your solutions.
 
@@ -8,15 +8,20 @@
 # TODO: Complete the implementation of fahrenheit2celsius () and what_to_wear(). 
 
 def fahrenheit2celsius(fahrenheit): 
-   x = 1
-
+   calsius = 5/9 *(fahrenheit-32)
+   return celsius
 def what_to_wear(celsius):
-   
-   if celsius<=0:
-       print("wear a sweater")
-
-
-# ---------------------------- Exercise II --------------------------------------
+   if celsius < -10:
+       return "Wear a puffy jacket"
+   elif -10 <= celsius < 0:
+       return "Wear a scarf"
+   elif 0 <= celsius < 10:
+       return "Wear a sweater"
+   elif 10 <= celsius < 20:
+       return "Wear a light jacket"
+   else:
+       return "Wear a T-shirt"
+   # ---------------------------- Exercise II --------------------------------------
 # ----------------- Area and perimeter of a triangle  ---------------------------
 # TODO: Fill the functions shoelace_triangle_area, euclidean_distance and
 # compute_triangle_perimeter from scratch  
