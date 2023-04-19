@@ -68,7 +68,7 @@ temperature = -10
 what_to_wear(temperature)
 
 '''
-# Exercise 2 test
+# Exercise 2 test 
 x1, x2, x3, y1, y2, y3 = -4, -5, 3, -4, 5, -3 # declaration of the vertices of the triangle
 area = shoelace_triangle_area(x1, y1, x2, y2, x3, y3)
 perimeter = compute_triangle_perimeter(x1, y1, x2, y2, x3, y3)
